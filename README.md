@@ -1,45 +1,53 @@
-# tata-motors-supply-chain-dashboard
-"A Power BI dashboard analyzing 100K Tata Motors supply chain and logistics records across 25 years to optimize regional sales and track long-term vehicle trends."
+# Tata Motors Sales Performance Dashboard
 
+"An interactive Power BI dashboard analyzing 100K Tata Motors sales and logistics records across 25 years to optimize regional performance and track vehicle distribution trends."
 
-# Tata Motors Executive Overview Dashboard
+---
 
-### 📊 [Click Here to View the Interactive Dashboard][(Screenshot 2026-05-21 151843.png](https://github.com/Hitesh-2146/tata-motors-supply-chain-dashboard/blob/3d348745b243c25e5b73979c3f2854eb5e8feff9/Screenshot%202026-05-21%20151843.png) = HERE_YOU_ARE_ABLE_TO_SEE_THE_DASHBOARD_(LINK_HERE)
+## 📊 Interactive Dashboard Preview
 
-### 📌 Project Overview
+![Tata Motors Sales Dashboard](Dashboard%20png.png)
 
-Developed an interactive Supply Chain, Logistics, and Sales performance dashboard utilizing 25 years of historical automotive company records. The goal of this project was to clean a massive dataset containing 100K orders and establish a clean, relational data structure for executive-level business reporting.
+---
 
-### 🛠️ Data Structure & Modeling (`tata_cars_100k`)
+## 🚀 Project Overview
 
-The project utilizes a structured dataset containing granular sales and logistical metrics:
+Developed an interactive Sales and Logistics performance dashboard utilizing 25 years of historical automotive records. The goal of this project was to analyze 100K customer orders, establishing a relational data structure to provide executive-level business intelligence across regions, fuel types, models, and variant specifications.
 
-* **Sales Columns:** `sale_price_inr`, `msrp_inr`, `sales_units`, `Total Sale`, `Cr`, and `Sales %`.
-* **Dimensions:** `model`, `variant`, `color`, `fuel_type`, `image_url`, and `manufacturing_plant`.
-* **Geographic & Time Fields:** `dealer_city`, `dealer_name`, `dealer_state`, `region`, `sales_date`, `Month & Year`, `MonthSort`, and `year`.
+---
 
-### 💡 Key Metrics & Insights Discovered
+## 🔑 Key Metrics & Dashboard Features
 
-* **Total Sales Revenue:** ₹301.04 Cr generated across all operational regions.
- 
-* **Volume Metrics:** Successfully managed tracking for 100K total orders and 199K sold units.
+* **High-Level KPIs:**
+  * **Total Sales:** ₹301.04 Cr
+  * **Total Orders:** 100K
+  * **Units Sold:** 199K
+  * **Sales Completion:** 100%
+* **Interactive Slicers & Filtering:**
+  * **Regional Breakdown:** Central, East, North, South, West
+  * **Timeline Controls:** Interactive date slider spanning 01-01-2000 to 12-10-2025
+* **Detailed Visualizations:**
+  * **Sales by Variant:** Performance comparison across top trims including XZ(O), XZ, XT, XM, and XE.
+  * **Sales by Model:** Percentage breakdown across popular lines like Safari, Tiago EV, Tigor, Tigor EV, Zest, and Tiago.
+  * **Fuel-Wise Sales:** Volume distribution across Petrol, Electric, Diesel, Hybrid, and CNG powertrains.
+  * **Quarterly Trend Line:** Revenue trajectory across all 12 months, tracking peak performance windows.
+  * **Color Preferences:** Share breakdown across vehicle color offerings (Blue, White, Maroon, Orange, Silver).
 
-* **Core Visualizations:** * **Sales by Model:** High-level Tree Map identifying top-performing car models.
+---
 
-* **Sales by Variant:** Pie chart breaking down customer preference distributions (XZ(O), XZ, XT, XM, XE).
+## 🛠️ Tech Stack & Tools
 
-* **Fuel-Wise Sales:** Horizontal bar chart mapping sales volume by engine source (Petrol, Electric, Diesel, Hybrid, CNG).
+* **Business Intelligence:** Power BI Desktop
+* **Data Processing:** Power Query (ETL)
+* **Data Modeling:** DAX (Data Analysis Expressions) & Star Schema
+* **Source Files:** `Power Bi file.pbix`
 
-* **Geographic Slicers:** Interactive regional filters (Central, East, North, South, West) paired with a live map tracking manufacturing cities across India.
+---
 
+## 📁 Repository Structure
 
-
-
-
-### 🚀 Technical Skills Demonstrated
-
-**Data Visualization:** Power BI (Tree Maps, Pie Charts, Horizontal Bar Charts, Line Trends, KPI Summary Cards).
-
-
-* **Data Cleaning & Engineering:** Power Query, handling flag attributes, sorting months chronologically, and organizing data columns.
-* **Database Management Concepts:** Knowledge of relational tables, performance filters, tracking dimensions, and grouping datasets efficiently.
+```text
+├── Dashboard png.png       # Dashboard screenshot preview
+├── Power Bi file.pbix      # Power BI project file
+├── LICENSE                 # Project license
+└── README.md               # Documentation
